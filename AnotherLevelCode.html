@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Website</title>
+</head>
+<body>
+    <h1 style="background-color: aquamarine;"> Welcome to my website. Sit down and hold a beer</h1>
+    <p>Here you get to be <strong>entertained</strong> with <em>exciting</em> news</p>
+    <a title="Google search" href="Https:google.com" target="_blank">Click here to visit google</a>
+    <!-- unordered list -->
+    <ul style="list-style-type: circle;">
+        <li>First Ball</li>
+        <li>Second Ball</li>
+        <li>Third Ball</li>
+    </ul>
+    <!-- ordered list -->
+    <ol start="20" type="i">
+        <li>Mazda</li>
+        <li>Benz</li>
+        <li>Toyota</li>
+    </ol>
+    <!-- definition list -->
+    <dl>
+        <dt>G.O.A.T</dt>
+        <dd>Greatest Of All Time</dd>
+    </dl>
+    <form action="/submit" method="post" autocomplete="on">
+        <label for="name">UserName:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" rows="10" cols="30" placeholder="Type your message here"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <br><br>
+        <!-- select -->
+        <label for="cars">Choose a car: </label>
+        <select id="cars" name="cars">
+         <br>
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+            <option value="Benz">Benz</option>
+            <option value="Toyota">Toyota</option>
+        </select>
+    </form>
+</body>
+</html>
