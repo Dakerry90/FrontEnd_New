@@ -1,0 +1,22 @@
+table, th, td{
+    border-collapse: inherit;
+    padding: 15px;
+}
+table{
+    border: 2px solid rgb(199, 194, 194);
+    border-radius: 5%;
+}
+tr{
+    height: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+th{
+    background-color:rgb(156, 172, 129); 
+    color: white; text-align: left; height: 40px; 
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+}
+tr:nth-child(even){
+    background-color: rgb(199, 194, 194);
+}
