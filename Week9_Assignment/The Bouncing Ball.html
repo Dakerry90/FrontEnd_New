@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bouncing Ball</title>
+    <style>
+    .loader {
+        width: 70px;
+        height: 120px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .ball {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #255426, #8bba8c);
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        animation: bounce 0.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-70px); }
+    }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="ball"></div>
+      </div>
+</body>
+</html>

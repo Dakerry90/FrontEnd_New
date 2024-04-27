@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Navigation Menu</title>
+    <style>
+        /* Define styles for the navigation menu */
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease; /* Apply the transition effect */
+}
+/* Define the hover effect */
+.navigation ul li a:hover {
+  transform: translateX(10px); color: aqua; /* Slide the menu items to the right on hover */
+}
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+</body>
+</html>
