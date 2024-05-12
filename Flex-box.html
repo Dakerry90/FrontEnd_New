@@ -10,6 +10,12 @@
         }
         .flex-container >div{
             background-color: white; margin: 10px; padding: 20px; font-size: 30;}
+            ul.images{
+                margin:0; padding: 0;white-space: nowrap; width: 900px; overflow-x: auto; background-color: #ddd;
+            }
+            ul.images li{
+                display: inline; width: 150px; height: 150px;
+            }
     </style>
 </head>
 <body>
@@ -20,10 +26,24 @@
       <div>4</div>
       <div style="align-self: flex-end;">5</div>
       <div>6</div>
-      <div>7</div>
-      <div>8</div>
-      <div>9</div>
-      <div>10</div>
     </div>
+    <ul class="images">
+        <li><img src="logo.png"></li>
+        <li><img src="logo.png"></li>
+        <li><img src="logo.png"></li>
+        <li><img src="logo.png"></li>
+        <li><img src="logo.png"></li>
+        <li><img src="logo.png"></li>
+    </ul>
+    <br><br>
+    <center>
+        <marquee behavior="alternate" direction="left">
+            <img src="logo.png" alt="company logo">
+        </marquee>
+
+        <marquee behavior="alternate" direction="right">
+            <img src="logo.png" alt="company logo">
+        </marquee>
+    </center>
 </body>
 </html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="message"></div>
+    <button id="colorChangeButton">Change Color</button>
+    <p id="demo"></p>
+    <p id="Total"></p>
+    <script>
+        //Declare variable to share a name 
+        let userName="Alice";
+        //Display a welcome message using the DOM
+        document.getElementById("message").innerHTML="Welcome, " + userName + "!";
+        //Create a function to change background color on button click
+        function changeColor(){document.body.style.backgroundcolor="Lightblue";}
+        const button = document.getElementById("colorChangeButton")
+        button.addEventListener("click", changeColor)
+
+        let age="30"; 
+        let isloggedIn= true;
+        x=5; y=10; z=x+y;
+        document.getElementById('demo').innerHTML = "The value of Z is: "+ z;
+        const price1=5
+        const price2=6
+        let Total = price1 + price2;
+        document.getElementById('Total').innerHTML="The total is: " + Total;
+    </script>
+</body>
+</html>
